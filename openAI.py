@@ -1,6 +1,6 @@
 import openai
 import os
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY_HERE"
 messages = [
     {"role": "system", "content": "You are solving math problems. do not show any steps, just return a one line answer "
                                   "to me. if it is not a math problem return an error 'Error: not a problem'"}
